@@ -8,12 +8,12 @@ In this project, we implemented both Heston-Nandi GARCH and Component Heston-Nan
 The data used for the experiment is not provided here due to confidentiality. However, some brief results are listed here:
 
 <table>
-  <caption><strong>Comparison of Normality Test Results for HNGARCH and LSGARCH Residuals</strong></caption>
+  <caption><strong>Comparison of Normality Test Results for HNGARCH and Component GARCH Residuals</strong></caption>
   <thead>
     <tr>
       <th>Test</th>
       <th>HNGARCH</th>
-      <th>LSGARCH</th>
+      <th>Component GARCH</th>
     </tr>
   </thead>
   <tbody>
@@ -43,7 +43,7 @@ The data used for the experiment is not provided here due to confidentiality. Ho
     </tr>
   </tbody>
 </table>
-
+The results suggest that LSGARCH produces residuals closer to normality compared to HNGARCH. This could imply that Component GARCH is better suited for modeling scenarios where normality of residuals is desirable or expected.
 
 
 ---
