@@ -1,0 +1,2 @@
+# ComponentGARCH
+ 
